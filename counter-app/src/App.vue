@@ -1,16 +1,26 @@
 <template>
+  <div>
+    <p> Count: <strong>{{ count }}</strong> </p>
+    <button class="increment-btn">Increment</button>
+    <button class="decrement-btn">Decrement</button>
+  </div>
+
 </template>
 
 <script>
 
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  data() {
+    return {
+      count: 0,
+    }
+  },
+  mode(
+    increment-btn
+  )
 }
-</script>
+</script>xx
 
 <style>
 </style>
