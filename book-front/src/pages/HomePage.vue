@@ -1,12 +1,15 @@
 <template>
   <BooksRow/>
-  <PaginationRowa/>
+  <PaginationRow/>
 </template>
 
 <script>
+
+import BooksRow from "@/components/BooksRow";
+import PaginationRow from "@/components/PaginationRow";
 export default {
   name: "HomePage",
-  components: {}
+  components: {PaginationRow, BooksRow}
 
 }
 </script>

@@ -36,17 +36,15 @@
 
 
 import FooterRow from "@/components/FooterRow";
-import HomePage from "@/pages/HomePage";
 import HeaderRow from "@/components/HeaderRow";
 import CategoriesCol from "@/components/CategoriesCol";
 export default {
   name: 'App',
+
   components: {
     CategoriesCol,
     HeaderRow,
-    FooterRow,
-    // eslint-disable-next-line vue/no-unused-components
-    HomePage,
+    FooterRow
   }
 }
 </script>

@@ -8,7 +8,7 @@
         <div class="card-body">
           <h5 class="card-title">O'tkan kunlar</h5>
           <p class="card-text">Otabek va ikki qiz, yohud sevgi uchburchagi...</p>
-          <router-link href="book.html" class="btn btn-primary">O'qish</router-link>
+          <router-link to="/book-info" class="btn btn-primary">O'qish</router-link>
         </div>
       </div>
     </div>
